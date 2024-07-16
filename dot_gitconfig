@@ -1,0 +1,10 @@
+[user]
+	name = Nyaaa
+	email = 1457047+Nyaaa@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[submodule]
+	recurse = true

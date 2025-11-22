@@ -16,7 +16,7 @@ set incsearch
 map Q gq
 
 "Use system clipboard for yanking
-set clipboard+=unnamedplus
+"set clipboard+=unnamedplus
 
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
 
